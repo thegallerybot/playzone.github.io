@@ -25,6 +25,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 /* Logo */
@@ -58,7 +59,7 @@ body {
 
 /* Contenido principal */
 .content {
-    margin-top: 80px;
+    margin-top: 100px; /* 🔹 Se agregó margen para que no quede tapado */
     padding: 100px 20px;
 }
 
